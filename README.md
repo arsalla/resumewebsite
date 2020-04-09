@@ -13,6 +13,6 @@ Got through the majority of this in one day (roughly 6 hours). Learned alot abou
 
 Iniitially, I thought this was going to work because I was only viewing on fullscreen. However, when minimizing my browser, I realized that the pixels were based on screen resolution, causing what used to be centered to turn into a left skewed button. NOT ideal.
 
-I tried exploring options like wrapping the buttons into <div>, but even then I had issues. This time, applying <div> would just completely remove the styling I had specific to each button. Very annoying. In this version, I just left the buttons in their default state. Maybe I will come back to this and fix them later. I do plan on purchasing the domain sameharsalla.com and hosting a MUCH more advanced and polished website for job/internship recruitment purposes in college.
+I tried exploring options like wrapping the buttons into div, but even then I had issues. This time, applying div would just completely remove the styling I had specific to each button. Very annoying. In this version, I just left the buttons in their default state. Maybe I will come back to this and fix them later. I do plan on purchasing the domain sameharsalla.com and hosting a MUCH more advanced and polished website for job/internship recruitment purposes in college.
 
 Finally, shoutout to Font Awesome for the sick icon library
