@@ -34,7 +34,6 @@
         background-color: #4CAF50;
         color: white;
       }
-
       body {
         background-color: black;
       }
@@ -54,28 +53,70 @@
         margin-right: 16px;
         font-size: 17px;
         font-family: menlo;
-}
+      }
+      .btn_instagram{
+        background-color: #00ff00;
+        border: none;
+        color: black;
+        padding: 16px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 700px
+        transition-duration: 0.35s;
+      }
+      .btn_instagram:hover{
+        background-color: #00ff00;
+        color: white;
+      }
+      .btn_twitter{
+        background-color: #00ff00;
+        border: none;
+        color: black;
+        padding: 16px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        right: 700px
+        transition-duration: 0.35s;
+      }
+      .btn_twitter:hover{
+        background-color: #00ff00;
+        color: white;
+      }
+      .btn_github{
+        background-color: #00ff00;
+        border: none;
+        color: black;
+        padding: 16px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 900px
+        transition-duration: 0.35s;
+      }
+      .btn_github:hover{
+        background-color: #00ff00;
+        color: white;
+      }
     </style>
   </head>
   <body>
     <h1><i>SAMEH ARSALLA</i></h1>
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
+  <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="education.html">Education</a>
   <a href="work.html">Work</a>
   <a href="projects.html">Projects</a>
-  <a href="contact.html">Contact</a>
-  <!------ <form action="search.php" method="post">
-    <input type="text" id="searchBar" placeholder="Search..." autocomplete="off" onMOuseDown="" onBlur"">
-    <input type="submit" id="searchBtn" placeholder="Go">
-  </form> ------>
+  <a class="active"href="contact.html">Contact</a>
+  <!---<input type="text" placeholder="Search...">--->
 </div>
-
-
 <div class="intro-container">
-  <h2>Intro</h2>
-  <p>This is a tester website</p>
+  <h2>Contact</h2>
+  <p><br>Email: sameh.arsalla@gmail.com<br/ >Phone:(904)-482-3834</p>
+  <button class="btn_twitter"; onclick="window.location.href = 'https://twitter.com/sameharsalla';"><i class="fab fa-twitter"></i></button>
+  <button class="btn_instagram"; onclick="window.location.href = 'https://instagram.com/arsalla';"><i class="fab fa-instagram"></i></button>
 </div>
   </body>
 </html>
